@@ -15,15 +15,15 @@
 <link rel="stylesheet" href="/css/highlight.css">
 
   
-  <meta name="description" content="To be effective you need to be responsible, empowered, and knowledgeable. If you only have one or two, seek the others. If you’re unable to acquire the others; let it go.  Some ProblemsI’d like to in">
+  <meta name="description" content="To be effective you need to be responsible, empowered, and knowledgeable. If you only have one or two, seek the others. If you’re unable to acquire the others; let it go.  Some ChallengesI’d like to">
 <meta property="og:type" content="article">
 <meta property="og:title" content="The Three Pillars of Effectiveness">
 <meta property="og:url" content="http://example.com/2021/05/14/The-Three-Pillars-of-Effectiveness/index.html">
 <meta property="og:site_name" content="How to Manage">
-<meta property="og:description" content="To be effective you need to be responsible, empowered, and knowledgeable. If you only have one or two, seek the others. If you’re unable to acquire the others; let it go.  Some ProblemsI’d like to in">
+<meta property="og:description" content="To be effective you need to be responsible, empowered, and knowledgeable. If you only have one or two, seek the others. If you’re unable to acquire the others; let it go.  Some ChallengesI’d like to">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2021-05-15T03:35:53.000Z">
-<meta property="article:modified_time" content="2021-05-20T04:28:40.434Z">
+<meta property="article:modified_time" content="2021-05-21T02:27:52.059Z">
 <meta property="article:author" content="Chris Phillips (me@chris-phillips.dev)">
 <meta property="article:tag" content="management effectiveness responsibility empowerment knowledge">
 <meta name="twitter:card" content="summary"><meta name="generator" content="Hexo 5.4.0"></head>
@@ -75,12 +75,12 @@
         <blockquote>
 <p>To be effective you need to be responsible, empowered, and knowledgeable. If you only have one or two, seek the others. If you’re unable to acquire the others; let it go.</p>
 </blockquote>
-<h2 id="Some-Problems"><a href="#Some-Problems" class="headerlink" title="Some Problems"></a>Some Problems</h2><p>I’d like to introduce this post writing up a few problems I’ve had in my career (anonymized). </p>
+<h2 id="Some-Challenges"><a href="#Some-Challenges" class="headerlink" title="Some Challenges"></a>Some Challenges</h2><p>I’d like to introduce this post writing up a few challenges I’ve had in my career (anonymized). </p>
 <ol>
-<li>With my team underutilized, I was told to hire a team of consultants. I asked why, what would they be working on, and was told a particular project that I knew was nowhere close to being ready to start. I raised this concern, but was overruled. The consultants were hired, started, and I got pulled into meetings trying to figure out what they could work on. Eventually, they were let go.</li>
-<li> I was tasked with evaluating the delivery of a team of consultants. I raised concerns that the project was not written in a scalable fashion. Leadership went back to the consultants, and were promised that scalability would be added ‘later’ (I raised concerns but was overruled). Later, they did, and demoed running with multiple instances of the services running at once. Leadership was happy with it, but I took their demo, forced clients to switch between instances using my local hosts table, and demonstrated it did not work; leadership did not know what to make of my claims, and it took hours to convince the consultants to replicate my test, at which point they also admitted it did not work.</li>
-<li>At one company, one team had been tasked with supporting an aging legacy tech stack for a particular domain. Related products existing in the same domain had been tackled by two other teams; both by building new microservices where possible, and by augmenting the legacy monolith where it was not possible to decouple it. Due to a production issue, upper management finally gave their blessing to rebuild the legacy system, but to do so in a way that solved the entire domain across products, a decision engineering agreed with. However, pace was very slow, and results were subpar, due to upper management wanting to be involved even at the technical level, and to defer to architects rather than the teams when the two disagreed.</li>
-<li>One company had an infrastructure team that was a part of one business department. Years back they sought to create an infrastructural solution to move everyone to the cloud, with a CI/CD pipeline, etc. The department I was a part of chose not to use them; the feature team within the business department the infrastructural team was in could not say no to using them, but it was a constant source of friction, and did not enable them to move as quickly as they would have liked. This caused bad blood all around.</li>
+<li>I was told to hire a team of consultants to work on a project. Having observed how the company worked, I knew that the project was not ready to be worked on, and raised this as a concern. However, I was told to still hire; the roadmap indicated we would need more people. They were let go after a few months due to underutilization.</li>
+<li>I had to evaluate the delivery of a project by a team of consultants. I saw that the project had not been written in a scalable fashion (each service assumed a single node), and raised this as a concern. The consultants answered they would add scalability later, an answer leadership was happy with. When they later claimed this functionality had been implemented, leadership wished to accept it. I had my concerns, tested it, and found an issue. I told this to leadership, who did not know what to make of my claims. I convinced the consultants to run the same tests I had, at which point they agreed more work was needed.</li>
+<li>At one company, three teams had been working in one particular business domain, some supporting legacy code, others building new services. When upper management decided the legacy system needed to be rewritten, they inserted themselves in as the decision maker, along with an architect who was not responsible for implementation or support. Progress was extremely slow, and people started to quit.</li>
+<li>At one company, a core infrastructure team existed. The department they were a part of had to use them; the department I was a part of did not. The department that had to use them found their needs unmet, and their progress slowed. The department I was a part of found our needs unmet, but was able to own spinning up our own infrastructure and so were able to quickly make progress. This led to a bit of bad blood all around. </li>
 </ol>
 <p>All of these problems stem from the same core issue. There were misalignments between responsibility, empowerment, and knowledge. The goal of this post is to dive into this idea.</p>
 <h2 id="Clarification"><a href="#Clarification" class="headerlink" title="Clarification"></a>Clarification</h2><p>I want to start by being very clear - this is a tool for defining a problem. It helps to make sense of the problem, and provides some direction for potentially solving it, but it does not dictate or guarantee a solution. I’ll discuss a bit about the ramifications of that at the end.</p>
